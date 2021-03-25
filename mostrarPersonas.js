@@ -14,24 +14,9 @@ var options = {
     dataType: 'json',
     json: true
 };
-/*
+
 request(options)
-    .then(data => console.log(data));*/
-    /*
-    request(options)
-    .then(data => {var personas = JSON.parse(this.data)
-                    for (const persona in personas) {
-                        console.log(persona.apellido);
-                    }});
-
-                    */
-
-
-    
-request(options)
-    .then(data => {for (const persona in data) {
-        console.log(persona.apellido);
-    }});
+    .then(data => console.log(data));
 
 
 
