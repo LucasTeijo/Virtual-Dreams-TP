@@ -77,3 +77,8 @@ EJERCICIO 3
  
 (Tuve que realizarlo una segunda vez porque accidentalmente perdí la imagen del primer POST, y para que coincidiera el código opte por volver a realizarlo, por ese motivo se ve que estoy 2 veces cargado)
 
+
+EJERCICIO 4
+
+Para ejecutar este programa se debe descargar el archivo mostrarPersonas.js. Luego se accede a la consola en la carpeta donde se encuentre el archivo y se ejecuta el comando “node mostrarPersonas.js” para correr el programa.
+Al realizar este ejercicio tuve un problema a la hora de tomar correctamente los datos de la url. Mi intención era acceder a los valores de los atributos de cada JSON y mostrar eso por consola, pero todas las maneras que se me ocurrieron o que pude investigar para resolver eso no funcionaban, o me daban un error, por lo que simplemente muestro todo el contenido tal cual se ve dentro de la página.
