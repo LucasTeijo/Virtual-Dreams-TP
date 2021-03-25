@@ -75,10 +75,17 @@ EJERCICIO 3
 
  
  
-(Tuve que realizarlo una segunda vez porque accidentalmente perdí la imagen del primer POST, y para que coincidiera el código opte por volver a realizarlo, por ese motivo se ve que estoy 2 veces cargado)
+Tuve que realizarlo una segunda vez porque accidentalmente perdí la imagen del primer POST, y para que coincidiera el código opte por volver a realizarlo, por ese motivo se ve que estoy 2 veces cargado
 
 
 EJERCICIO 4
 
 Para ejecutar este programa se debe descargar el archivo mostrarPersonas.js. Luego se accede a la consola en la carpeta donde se encuentre el archivo y se ejecuta el comando “node mostrarPersonas.js” para correr el programa.
 Al realizar este ejercicio tuve un problema a la hora de tomar correctamente los datos de la url. Mi intención era acceder a los valores de los atributos de cada JSON y mostrar eso por consola, pero todas las maneras que se me ocurrieron o que pude investigar para resolver eso no funcionaban, o me daban un error, por lo que simplemente muestro todo el contenido tal cual se ve dentro de la página.
+
+EJERCICIO 5/6
+
+Para ejecutar este programa se debe descargar los archivos crearPersonas.html y server.js. Dentro de server.js se debe realizar una modificación en la línea 17, se debe ingresar el path donde se va a encontrar el archivo crearPersonas.html, ya que no encontré otra manera de acceder a él.  Una vez hecho esto se debe ingresar desde la consola a la carpeta que contenga el archivo server.js y ejecutar el comando “node server.js”, esto hará que se inicie el servidor. Con el servidor funcionando, se debe ingresar desde el navegador al a localhost:3000 para acceder a él. Ahí mismo cargamos los datos y se envían a la url.
+
+Estos ejercicios los resolví de manera simultanea ya que fue la manera más fácil que pude pensar para resolver el 5. Esto me trajo una problemática a la hora de hacer las validaciones, ya que como el HTML solo aceptaba enviar 3 atributos no valide por mayor cantidad, ni valide que el nombre y apellido sean Strings ya que el input reconoce todo como string. Otra complicación que tuve fue a la hora de mostrar los errores por pantalla, no pude encontrar la manera de darle un mensaje al usuario de que no se puede enviar dado que no cumple los requisitos de los datos, en su defecto realice un console.log con los mensajes, y en caso de que ocurra uno de estos casos, no se realiza un POST al url.
+
